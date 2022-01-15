@@ -1,0 +1,113 @@
+/*common style*/
+*{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+.main-btn{
+    padding: 10px 25px;
+    background-color: #ae25b3;
+    color: white;
+    border-radius: 10px;
+}
+.main-h1{
+    font-size: 45px;
+}
+/*header section*/
+nav{
+    text-align: center;
+}
+body{
+    background-color: #fff;
+
+}
+.container{
+    width: 1200px;
+    margin-left: 50px;
+    margin-top: 50px;
+    
+}
+.data{
+    display: flex;
+}
+.contant{
+    margin-left: 50px;
+}
+.contant img{
+    margin-left: 100px;
+    height: 350px;
+    width: 350px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*colloction*/
+
+.titel{
+    text-align: center;
+}
+.ratting{
+    display: inline-flex;
+}
+.ratting p{
+    margin: 0px;
+    margin-left: 10px;
+}
+/*---------------------card*/
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    margin-top: 10px;
+    
+}
+.card{
+    width:300px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+}
+.card:hover{
+    box-shadow: 2px 2px 10px black;
+}
+.card img{
+    height: 230px;
+    width: 300px;
+}
+.card-titel{
+    text-align: center;
+}
+.seemore{
+    color: #ae25b3 ;   
+}
+.seemore i{
+    margin-left: 5px;
+}
+
+/*section of a blog*/
+
+.imgage img{
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+}
+.blog{
+   display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.blog a i{
+    margin-left: 10px;
+}
+#footer{
+    background-color: rgb(26, 2, 2);
+    color: white;
+    text-align: center;
+}
+#footer .fab{
+    font-size: 20px;
+    margin:10px 30px;
+}
+
+/* media quary */
